@@ -1,6 +1,10 @@
 #!/bin/bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
 =======
 echo "No. of files is $(find "$@" -type n | wc -l)"
 >>>>>>> 00fdde773c07b0dda038a887e70f5dfeff24e51d
+=======
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
+>>>>>>> 68658ef781c6c91848973ce53ebabe1544630559
